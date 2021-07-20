@@ -47,6 +47,9 @@
          <height>30</height>
         </size>
        </property>
+       <property name="shortcut">
+        <string>Ctrl+S</string>
+       </property>
       </widget>
      </item>
      <item>

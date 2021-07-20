@@ -5,8 +5,6 @@
 
 #include <QDateTime>
 
-#include <QVector>
-
 namespace Ui {
 class DreamEditor;
 }
@@ -29,9 +27,8 @@ signals:
     void closing();
 
 private slots:
-    void on_buttSave_released();
-
-    void on_buttDel_released();
+    void on_buttSave_released(); //Сохраняю сон в файл
+    void on_buttDel_released(); //Удаляю файл
 
 private:
     Ui::DreamEditor *ui;
@@ -40,10 +37,10 @@ private:
 
     statusDream statDream;
 
-    void readDream();
-    void writeDream();
-    void ifNewDream();
-    void ifOldDream();
+    void readDream(); //Читаю файл
+    void writeDream(); //Записываю файл
+    void ifNewDream(); //Настройка созданного файла
+    void ifOldDream(); //Настройка открытого файла
 };
 
 #endif // DREAMEDITOR_H
