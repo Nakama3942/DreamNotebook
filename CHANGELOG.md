@@ -1,5 +1,5 @@
 # Changelog
-
+<!--
 ## vX.X.X (DATE)
 
 #### Bug Fixes:
@@ -37,7 +37,7 @@
 - [# XXX](https : / / github . com / XXX) DESCRIPTION
 
 ---
-
+-->
 ## v1.0.0 (DATE)
 
 #### Release
